@@ -1,0 +1,16 @@
+--SELECT rating FROM film
+--GROUP BY rating;
+
+--SELECT replacement_cost, COUNT(title) FROM film
+--GROUP BY replacement_cost
+--HAVING COUNT (title) > 50;
+
+--SELECT store_id, COUNT(customer_id) FROM customer
+--GROUP BY customer_id;
+
+--SELECT country_id FROM city
+--GROUP BY country_id;
+--SELECT country_id, Count(city_id) FROM city
+--GROUP BY country_id
+--ORDER BY COUNT (country_id)DESC
+--LIMIT 1;
